@@ -1,4 +1,4 @@
-import { Greeter } from '../index';
-test('My Greeter', () => {
-  expect(Greeter('Carl')).toBe('Hello Carl');
+import { Space } from '../index';
+test('My Universe', () => {
+  expect(Space('World')).toBe('Hello World');
 });
