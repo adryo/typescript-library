@@ -1,5 +1,5 @@
 {
-  "name": "mutable-components-core",
+  "name": "#{NAME}#",
   "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
@@ -15,7 +15,7 @@
     "version" : "npm run format && git add -A src",
     "postversion" : "git push && git push --tags"
   },
-  "keywords": ["React", "React-Native", "React-Native-Web", "Components", "Mutable"],
+  "keywords": [],
   "author": "adryoenterprise@gmail.com",
   "license": "ISC",
   "devDependencies": {
