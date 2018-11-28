@@ -3,6 +3,7 @@
 # Build directory
 lib
 .DS_Store
+**/.DS_Store
 
 # Logs
 logs
