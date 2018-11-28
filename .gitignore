@@ -2,6 +2,7 @@
 .idea
 # Build directory
 lib
+.DS_Store
 
 # Logs
 logs
