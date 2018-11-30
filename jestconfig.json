@@ -1,4 +1,15 @@
 {
+  "reporters": [
+    "default",
+    ["jest-junit",{
+      "suiteName": "Jest Unit Tests",
+      "output": "./.jest/test-results/TEST-junit.xml",
+      "classNameTemplate": "{classname}-{title}",
+      "titleTemplate": "{classname}-{title}",
+      "ancestorSeparator": " › ",
+      "usePathForSuiteName": "true"
+    }]
+  ],
   "transform": {
     "^.+\\.(t|j)sx?$": "ts-jest"
   },

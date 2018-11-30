@@ -1,6 +1,7 @@
 #Idea config
 .idea
 # Build directory
+.jest
 lib
 .DS_Store
 **/.DS_Store
